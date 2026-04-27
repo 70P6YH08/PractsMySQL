@@ -1,0 +1,1 @@
+SELECT distinct country FROM pr1.authors order by country

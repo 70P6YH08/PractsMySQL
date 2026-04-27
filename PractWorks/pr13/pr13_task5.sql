@@ -1,0 +1,1 @@
+SELECT get_income_by_year('2026') as income_year

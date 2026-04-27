@@ -1,0 +1,1 @@
+CALL update_price_book(5)

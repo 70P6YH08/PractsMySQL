@@ -1,0 +1,1 @@
+call insert_customer("HSFJasdsdSJS","uф6elkit9","nrahethe","15616","asdasd");

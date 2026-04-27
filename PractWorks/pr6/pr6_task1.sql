@@ -1,0 +1,1 @@
+SELECT DATABASE(), USER(), curdate(), CURTIME(), NOW()

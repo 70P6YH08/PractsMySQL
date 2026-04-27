@@ -1,0 +1,1 @@
+SELECT get_book_list_by_author_id(1) as list_books

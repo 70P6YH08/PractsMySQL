@@ -1,0 +1,1 @@
+SELECT get_order_price_by_order_id(3) as order_price

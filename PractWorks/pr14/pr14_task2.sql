@@ -1,0 +1,1 @@
+CALL get_rows_books("сказки");

@@ -1,0 +1,2 @@
+ALTER TABLE books_info
+MODIFY book_id INT AUTO_INCREMENT

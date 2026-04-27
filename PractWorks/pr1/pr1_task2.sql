@@ -1,0 +1,1 @@
+SELECT surname, name FROM pr1.authors LIMIT 3

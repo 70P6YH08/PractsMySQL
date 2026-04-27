@@ -1,0 +1,1 @@
+select book_id, title, '5%' as discount, price * 0.95 as price_with_discount  from pr1.books;

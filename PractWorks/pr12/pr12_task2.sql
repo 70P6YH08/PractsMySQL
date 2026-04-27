@@ -1,0 +1,1 @@
+SELECT * FROM pr1.task_2

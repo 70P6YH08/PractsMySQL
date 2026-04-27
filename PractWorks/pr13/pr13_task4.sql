@@ -1,0 +1,1 @@
+SELECT get_count_authors_by_country("Россия") as count_author
