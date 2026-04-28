@@ -10,4 +10,4 @@ END$$
 DELIMITER ;
 
 DELETE FROM customers
-WHERE customer_id = 104;
+WHERE customer_id = 15;

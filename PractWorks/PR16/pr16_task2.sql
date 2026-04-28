@@ -1,15 +1,15 @@
-DROP TRIGGER customer_insert_before_trigger;
+DROP TRIGGER book_insert_before_trigger;
 
 DELIMITER $$
-CREATE TRIGGER customer_insert_before_trigger BEFORE INSERT ON books
+CREATE TRIGGER book_insert_before_trigger BEFORE INSERT ON books
 FOR EACH ROW
 BEGIN
-    CASE
-    WHEN price > 5000 THEN SET NEW.price = 5000;
-    else SET NEW.price = price;
-    end case;
+	SET NEW.price = CASE
+    WHEN NEW.price > 5000 THEN 5000
+        ELSE NEW.price
+    END;
 END$$
 DELIMITER ;
 
-DELETE FROM customers
-WHERE customer_id = 104;
+INSERT books(author_id, title, genre, price, weight, pages, public_year)
+VALUES(35, "ASDAFDG", "проза", 5425.01, 0.2, 32, 1896);
