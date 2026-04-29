@@ -2,6 +2,7 @@
 using System;
 using System.Collections.Generic;
 using System.Data;
+using System.Reflection.PortableExecutable;
 using System.Text;
 using System.Windows;
 using System.Windows.Controls;
@@ -12,9 +13,9 @@ namespace pr18
     {
         public static string hostName = "localhost";
         public static string portName = "3306";
-        public static string databaseName = "pr1";
+        public static string databaseName = "new_pr1";
         public static string loginUser = "root";
-        public static string passwordUser = "root";
+        public static string passwordUser = "3duc4710H_pr4c7_p455VV0rd";
 
 
         public static string connectionString
@@ -60,7 +61,7 @@ namespace pr18
                 }
                 return table;
             }
-            catch (Exception ex)
+            catch
             {
                 return new DataTable();
             }
@@ -78,9 +79,9 @@ namespace pr18
                     return result;
                 }
             }
-            catch (Exception ex)
+            catch
             {
-                return -1;
+                return null;
             }
         }
 
@@ -96,9 +97,68 @@ namespace pr18
                     return result;
                 }
             }
-            catch (Exception ex)
+            catch
             {
                 return -1;
+            }
+        }
+
+        public static string DeleteBookById(string id)
+        {
+            try
+            {
+                using (var connection = new MySqlConnection(connectionString))
+                {
+                    connection.Open();
+                    MySqlCommand mySqlCommand = new MySqlCommand(
+                        "DELETE FROM books WHERE book_id = @id",
+                        connection);
+                    mySqlCommand.Parameters.AddWithValue("@id", id);
+                    int deleteBook = mySqlCommand.ExecuteNonQuery();
+                    if (deleteBook > 0)
+                        return "Книга удалена";
+                    else
+                        return "Книга не найдена!";
+
+                }
+            }
+            catch
+            {
+                return "Неизвестная команда";
+            }
+        }
+
+        public static string InsertBookByValues(params string[] values)
+        {
+            try
+            {
+                using (var connection = new MySqlConnection(connectionString))
+                {
+                    connection.Open();
+                    MySqlCommand mySqlCommand = new MySqlCommand(
+                        $"INSERT INTO books(book_id, author_id, title, genre, price, weight, pages, public_year, count)" +
+                        $"VALUES(@bookId, @authorId, @title, @genre, @price, @weight, @pages, @publicYear, @count)",
+                        connection);
+
+                    mySqlCommand.Parameters.AddWithValue("@bookId", values[0]);
+                    mySqlCommand.Parameters.AddWithValue("@authorId", values[1]);
+                    mySqlCommand.Parameters.AddWithValue("@title", values[2]);
+                    mySqlCommand.Parameters.AddWithValue("@genre", values[3]);
+                    mySqlCommand.Parameters.AddWithValue("@price", values[4]);
+                    mySqlCommand.Parameters.AddWithValue("@weight", values[5]);
+                    mySqlCommand.Parameters.AddWithValue("@pages", values[6]);
+                    mySqlCommand.Parameters.AddWithValue("@publicYear", values[7]);
+                    mySqlCommand.Parameters.AddWithValue("@count", values[8]);
+                    int inserBook = mySqlCommand.ExecuteNonQuery();
+                    if (inserBook > 0)
+                        return "Книга добалена";
+                    else
+                        return "Ошибка добавления!";
+                }
+            }
+            catch
+            {
+                return "Неизвестная команда";
             }
         }
     }

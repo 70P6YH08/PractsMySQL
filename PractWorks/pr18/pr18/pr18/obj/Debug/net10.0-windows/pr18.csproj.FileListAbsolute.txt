@@ -37,3 +37,42 @@ C:\Users\-221\Students\ispp31\MySQL\PractWorks\pr18\pr18\pr18\obj\Debug\net10.0-
 C:\Users\-221\Students\ispp31\MySQL\PractWorks\pr18\pr18\pr18\obj\Debug\net10.0-windows\AuthorizationWindow.baml
 C:\Users\-221\Students\ispp31\MySQL\PractWorks\pr18\pr18\pr18\obj\Debug\net10.0-windows\QueryWindow.g.cs
 C:\Users\-221\Students\ispp31\MySQL\PractWorks\pr18\pr18\pr18\obj\Debug\net10.0-windows\QueryWindow.baml
+C:\Users\gorbu\Desktop\All\collage\3 year 2 semestr\PractsMySQL\PractWorks\pr18\pr18\pr18\bin\Debug\net10.0-windows\pr18.exe
+C:\Users\gorbu\Desktop\All\collage\3 year 2 semestr\PractsMySQL\PractWorks\pr18\pr18\pr18\bin\Debug\net10.0-windows\pr18.deps.json
+C:\Users\gorbu\Desktop\All\collage\3 year 2 semestr\PractsMySQL\PractWorks\pr18\pr18\pr18\bin\Debug\net10.0-windows\pr18.runtimeconfig.json
+C:\Users\gorbu\Desktop\All\collage\3 year 2 semestr\PractsMySQL\PractWorks\pr18\pr18\pr18\bin\Debug\net10.0-windows\pr18.dll
+C:\Users\gorbu\Desktop\All\collage\3 year 2 semestr\PractsMySQL\PractWorks\pr18\pr18\pr18\bin\Debug\net10.0-windows\pr18.pdb
+C:\Users\gorbu\Desktop\All\collage\3 year 2 semestr\PractsMySQL\PractWorks\pr18\pr18\pr18\bin\Debug\net10.0-windows\BouncyCastle.Cryptography.dll
+C:\Users\gorbu\Desktop\All\collage\3 year 2 semestr\PractsMySQL\PractWorks\pr18\pr18\pr18\bin\Debug\net10.0-windows\Google.Protobuf.dll
+C:\Users\gorbu\Desktop\All\collage\3 year 2 semestr\PractsMySQL\PractWorks\pr18\pr18\pr18\bin\Debug\net10.0-windows\K4os.Compression.LZ4.dll
+C:\Users\gorbu\Desktop\All\collage\3 year 2 semestr\PractsMySQL\PractWorks\pr18\pr18\pr18\bin\Debug\net10.0-windows\K4os.Compression.LZ4.Streams.dll
+C:\Users\gorbu\Desktop\All\collage\3 year 2 semestr\PractsMySQL\PractWorks\pr18\pr18\pr18\bin\Debug\net10.0-windows\K4os.Hash.xxHash.dll
+C:\Users\gorbu\Desktop\All\collage\3 year 2 semestr\PractsMySQL\PractWorks\pr18\pr18\pr18\bin\Debug\net10.0-windows\MySql.Data.dll
+C:\Users\gorbu\Desktop\All\collage\3 year 2 semestr\PractsMySQL\PractWorks\pr18\pr18\pr18\bin\Debug\net10.0-windows\ZstdSharp.dll
+C:\Users\gorbu\Desktop\All\collage\3 year 2 semestr\PractsMySQL\PractWorks\pr18\pr18\pr18\bin\Debug\net10.0-windows\runtimes\win-x64\native\comerr64.dll
+C:\Users\gorbu\Desktop\All\collage\3 year 2 semestr\PractsMySQL\PractWorks\pr18\pr18\pr18\bin\Debug\net10.0-windows\runtimes\win-x64\native\gssapi64.dll
+C:\Users\gorbu\Desktop\All\collage\3 year 2 semestr\PractsMySQL\PractWorks\pr18\pr18\pr18\bin\Debug\net10.0-windows\runtimes\win-x64\native\k5sprt64.dll
+C:\Users\gorbu\Desktop\All\collage\3 year 2 semestr\PractsMySQL\PractWorks\pr18\pr18\pr18\bin\Debug\net10.0-windows\runtimes\win-x64\native\krb5_64.dll
+C:\Users\gorbu\Desktop\All\collage\3 year 2 semestr\PractsMySQL\PractWorks\pr18\pr18\pr18\bin\Debug\net10.0-windows\runtimes\win-x64\native\krbcc64.dll
+C:\Users\gorbu\Desktop\All\collage\3 year 2 semestr\PractsMySQL\PractWorks\pr18\pr18\pr18\obj\Debug\net10.0-windows\pr18.csproj.AssemblyReference.cache
+C:\Users\gorbu\Desktop\All\collage\3 year 2 semestr\PractsMySQL\PractWorks\pr18\pr18\pr18\obj\Debug\net10.0-windows\AuthorizationWindow.g.cs
+C:\Users\gorbu\Desktop\All\collage\3 year 2 semestr\PractsMySQL\PractWorks\pr18\pr18\pr18\obj\Debug\net10.0-windows\MainWindow.g.cs
+C:\Users\gorbu\Desktop\All\collage\3 year 2 semestr\PractsMySQL\PractWorks\pr18\pr18\pr18\obj\Debug\net10.0-windows\QueryWindow.g.cs
+C:\Users\gorbu\Desktop\All\collage\3 year 2 semestr\PractsMySQL\PractWorks\pr18\pr18\pr18\obj\Debug\net10.0-windows\App.g.cs
+C:\Users\gorbu\Desktop\All\collage\3 year 2 semestr\PractsMySQL\PractWorks\pr18\pr18\pr18\obj\Debug\net10.0-windows\pr18_MarkupCompile.cache
+C:\Users\gorbu\Desktop\All\collage\3 year 2 semestr\PractsMySQL\PractWorks\pr18\pr18\pr18\obj\Debug\net10.0-windows\pr18_MarkupCompile.lref
+C:\Users\gorbu\Desktop\All\collage\3 year 2 semestr\PractsMySQL\PractWorks\pr18\pr18\pr18\obj\Debug\net10.0-windows\AuthorizationWindow.baml
+C:\Users\gorbu\Desktop\All\collage\3 year 2 semestr\PractsMySQL\PractWorks\pr18\pr18\pr18\obj\Debug\net10.0-windows\MainWindow.baml
+C:\Users\gorbu\Desktop\All\collage\3 year 2 semestr\PractsMySQL\PractWorks\pr18\pr18\pr18\obj\Debug\net10.0-windows\QueryWindow.baml
+C:\Users\gorbu\Desktop\All\collage\3 year 2 semestr\PractsMySQL\PractWorks\pr18\pr18\pr18\obj\Debug\net10.0-windows\pr18.g.resources
+C:\Users\gorbu\Desktop\All\collage\3 year 2 semestr\PractsMySQL\PractWorks\pr18\pr18\pr18\obj\Debug\net10.0-windows\pr18.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gorbu\Desktop\All\collage\3 year 2 semestr\PractsMySQL\PractWorks\pr18\pr18\pr18\obj\Debug\net10.0-windows\pr18.AssemblyInfoInputs.cache
+C:\Users\gorbu\Desktop\All\collage\3 year 2 semestr\PractsMySQL\PractWorks\pr18\pr18\pr18\obj\Debug\net10.0-windows\pr18.AssemblyInfo.cs
+C:\Users\gorbu\Desktop\All\collage\3 year 2 semestr\PractsMySQL\PractWorks\pr18\pr18\pr18\obj\Debug\net10.0-windows\pr18.csproj.CoreCompileInputs.cache
+C:\Users\gorbu\Desktop\All\collage\3 year 2 semestr\PractsMySQL\PractWorks\pr18\pr18\pr18\obj\Debug\net10.0-windows\pr18.sourcelink.json
+C:\Users\gorbu\Desktop\All\collage\3 year 2 semestr\PractsMySQL\PractWorks\pr18\pr18\pr18\obj\Debug\net10.0-windows\pr18.csproj.Up2Date
+C:\Users\gorbu\Desktop\All\collage\3 year 2 semestr\PractsMySQL\PractWorks\pr18\pr18\pr18\obj\Debug\net10.0-windows\pr18.dll
+C:\Users\gorbu\Desktop\All\collage\3 year 2 semestr\PractsMySQL\PractWorks\pr18\pr18\pr18\obj\Debug\net10.0-windows\refint\pr18.dll
+C:\Users\gorbu\Desktop\All\collage\3 year 2 semestr\PractsMySQL\PractWorks\pr18\pr18\pr18\obj\Debug\net10.0-windows\pr18.pdb
+C:\Users\gorbu\Desktop\All\collage\3 year 2 semestr\PractsMySQL\PractWorks\pr18\pr18\pr18\obj\Debug\net10.0-windows\pr18.genruntimeconfig.cache
+C:\Users\gorbu\Desktop\All\collage\3 year 2 semestr\PractsMySQL\PractWorks\pr18\pr18\pr18\obj\Debug\net10.0-windows\ref\pr18.dll

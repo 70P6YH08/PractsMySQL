@@ -6,16 +6,80 @@
         xmlns:local="clr-namespace:pr18"
         mc:Ignorable="d"
         Title="QueryWindow" Height="450" Width="800">
-    <StackPanel Width="300">
-        <Label Content="Таблица"/>
+    <ScrollViewer ScrollViewer.VerticalScrollBarVisibility="Hidden">
+        <StackPanel Width="700">
+        <Label Content="Таблица" FontWeight="Bold"/>
         <TextBox x:Name="TableTextBox"/>
         <Button Content="Показать таблицу" Click="Table_Button_Click"/>
         <DataGrid x:Name="TableDataGrid">
         </DataGrid>
-        <Label Content="Запрос"/>
+        
+        <Label Content="Запрос на выборку" FontWeight="Bold"/>
         <TextBox x:Name="QueryTextBox"/>
         <Label Content="Результат запроса"/>
         <Label x:Name="ResultQueryLabel" Content=""/>
         <Button Content="Показать результат" Click="Query_Button_Click"/>
-    </StackPanel>
+        
+        <Label Content="Получение количества изменённых строк по запросу" FontWeight="Bold"/>
+        <TextBox x:Name="UpdateQueryTextBox" MinLines="5"/>
+        <Label Content="Результат запроса"/>
+        <Label x:Name="ResultUpdateQueryLabel" Content=""/>
+        <Button Content="Показать результат" Click="Update_Query_Button_Click"/>
+
+        <Label Content="Удаление книги по id" FontWeight="Bold"/>
+        <TextBox x:Name="DeleteQueryTextBox"/>
+        <Label Content="Результат запроса"/>
+        <Label x:Name="ResultDeleteQueryLabel" Content=""/>
+        <Button Content="Показать результат" Click="Delete_Query_Button_Click"/>
+
+        <Label Content="Добавление новой книги" FontWeight="Bold"/>
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
+                <Label Content="Код книги" Grid.Column="0" Grid.Row="0"/>
+                <TextBox x:Name="InsertBookIdTextBox" Grid.Column="0" Grid.Row="1"/>
+
+                <Label Content="Код автора" Grid.Column="1" Grid.Row="0"/>
+                <TextBox x:Name="InsertAuthorIdTextBox" Grid.Column="1" Grid.Row="1"/>
+
+                <Label Content="Название" Grid.Column="2" Grid.Row="0"/>
+                <TextBox x:Name="InsertTitleTextBox" Grid.Column="2" Grid.Row="1"/>
+
+                <Label Content="Жанр книги" Grid.Column="3" Grid.Row="0"/>
+                <TextBox x:Name="InsertGenreTextBox" Grid.Column="3" Grid.Row="1"/>
+
+                <Label Content="Цена книги" Grid.Column="4" Grid.Row="0"/>
+                <TextBox x:Name="InsertPriceTextBox" Grid.Column="4" Grid.Row="1"/>
+
+                <Label Content="Вес книги" Grid.Column="5" Grid.Row="0"/>
+                <TextBox x:Name="InsertWeightTextBox" Grid.Column="5" Grid.Row="1"/>
+
+                <Label Content="Страницы" Grid.Column="6" Grid.Row="0"/>
+                <TextBox x:Name="InsertPagesTextBox" Grid.Column="6" Grid.Row="1"/>
+
+                <Label Content="Год выпуска" Grid.Column="7" Grid.Row="0"/>
+                <TextBox x:Name="InsertPublicYearTextBox" Grid.Column="7" Grid.Row="1"/>
+
+                <Label Content="Количество" Grid.Column="8" Grid.Row="0"/>
+                <TextBox x:Name="InsertCountTextBox" Grid.Column="8" Grid.Row="1"/>
+            </Grid>
+            <Label Content="Результат запроса"/>
+            <Label x:Name="ResultInsertQueryLabel" Content=""/>
+            <Button Content="Показать результат" Click="Insert_Query_Button_Click"/>
+        </StackPanel>
+    </ScrollViewer>
+    
 </Window>

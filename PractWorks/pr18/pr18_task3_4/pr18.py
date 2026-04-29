@@ -2,17 +2,28 @@ import mysql.connector
 from mysql.connector import cursor
 
 try:
-    conn = mysql.connector.connect(host='localhost',user='root',passwd = 'root', db='pr1')
-    cursor = conn.cursor()
-    query = input("Запрос: ")
-    price = input("Цена книги: ")
+    conn = mysql.connector.connect(host='localhost',
+                                   user='root',
+                                   passwd = '3duc4710H_pr4c7_p455VV0rd',
+                                   db='new_pr1')
 
-    cursor.execute(query, (price,))
+    # query = input("Запрос: ")
+    # price = input("Цена книги: ")
+    # cursor.execute(query, (price,))
     # for i in cursor.fetchall():
-    #     print(i)
+    #     print(f"Название: {i[2]}, цена: {i[4]}")
+
+    cursor = conn.cursor()
+    dml_query = input("DML-запрос: ")
+
+    cursor.execute(dml_query)
+    conn.commit()
+
+    dml_query = input("SELECT-запрос: ")
+    cursor.execute(dml_query)
 
     for i in cursor.fetchall():
-        print(f"Название: {i[2]}, цена: {i[4]}")
+        print(i)
 
     conn.close()
 

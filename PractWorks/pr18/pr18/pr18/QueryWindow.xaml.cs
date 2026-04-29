@@ -34,9 +34,41 @@ namespace pr18
         private void Query_Button_Click(object sender, RoutedEventArgs e)
         {
             string queryString = QueryTextBox.Text;
-            object resultQuery =  DataAccessLayer.GetValueByStringQuery(queryString);
+            object resultQuery = DataAccessLayer.GetValueByStringQuery(queryString);
 
             ResultQueryLabel.Content = resultQuery;
+        }
+
+        private void Update_Query_Button_Click(object sender, RoutedEventArgs e)
+        {
+            string queryString = UpdateQueryTextBox.Text;
+            int resultQuery = DataAccessLayer.GetCountUpdateStringByStringQuery(queryString);
+
+            ResultUpdateQueryLabel.Content = resultQuery;
+        }
+
+        private void Delete_Query_Button_Click(object sender, RoutedEventArgs e)
+        {
+            string bookId = DeleteQueryTextBox.Text;
+            string resultQuery = DataAccessLayer.DeleteBookById(bookId);
+
+            ResultDeleteQueryLabel.Content = resultQuery;
+        }
+
+        private void Insert_Query_Button_Click(object sender, RoutedEventArgs e)
+        {
+            string bookId = InsertBookIdTextBox.Text;
+            string authorId = InsertAuthorIdTextBox.Text;
+            string title = InsertTitleTextBox.Text;
+            string genre = InsertGenreTextBox.Text;
+            string price = InsertPriceTextBox.Text;
+            string weight = InsertWeightTextBox.Text;
+            string pages = InsertPagesTextBox.Text;
+            string publicYear = InsertPublicYearTextBox.Text;
+            string count = InsertCountTextBox.Text;
+            string resultQuery = DataAccessLayer.InsertBookByValues(bookId, authorId, title, genre, price, weight, pages, publicYear, count);
+
+            ResultInsertQueryLabel.Content = resultQuery;
         }
     }
 }
