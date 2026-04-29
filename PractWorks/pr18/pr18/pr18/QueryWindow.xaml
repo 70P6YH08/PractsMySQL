@@ -1,0 +1,21 @@
+﻿<Window x:Class="pr18.QueryWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:pr18"
+        mc:Ignorable="d"
+        Title="QueryWindow" Height="450" Width="800">
+    <StackPanel Width="300">
+        <Label Content="Таблица"/>
+        <TextBox x:Name="TableTextBox"/>
+        <Button Content="Показать таблицу" Click="Table_Button_Click"/>
+        <DataGrid x:Name="TableDataGrid">
+        </DataGrid>
+        <Label Content="Запрос"/>
+        <TextBox x:Name="QueryTextBox"/>
+        <Label Content="Результат запроса"/>
+        <Label x:Name="ResultQueryLabel" Content=""/>
+        <Button Content="Показать результат" Click="Query_Button_Click"/>
+    </StackPanel>
+</Window>

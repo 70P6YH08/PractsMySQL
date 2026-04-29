@@ -14,4 +14,4 @@ END$$
 DELIMITER ;
 
 INSERT INTO structure(book_id, order_id, count)
-VALUES(95, 19, 17);
+VALUES(6, 1205, 17);
