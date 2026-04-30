@@ -13,9 +13,9 @@ namespace pr18
     {
         public static string hostName = "localhost";
         public static string portName = "3306";
-        public static string databaseName = "new_pr1";
+        public static string databaseName = "pr1";
         public static string loginUser = "root";
-        public static string passwordUser = "3duc4710H_pr4c7_p455VV0rd";
+        public static string passwordUser = "root";
 
 
         public static string connectionString
@@ -94,7 +94,10 @@ namespace pr18
                     connection.Open();
                     MySqlCommand mySqlCommand = new MySqlCommand(stringQuery, connection);
                     int result = mySqlCommand.ExecuteNonQuery();
-                    return result;
+                    if (result > 0)
+                        return result;
+                    else
+                        return 0;
                 }
             }
             catch

@@ -4,8 +4,8 @@ from mysql.connector import cursor
 try:
     conn = mysql.connector.connect(host='localhost',
                                    user='root',
-                                   passwd = '3duc4710H_pr4c7_p455VV0rd',
-                                   db='new_pr1')
+                                   passwd = 'root',
+                                   db='pr1')
 
     # query = input("Запрос: ")
     # price = input("Цена книги: ")

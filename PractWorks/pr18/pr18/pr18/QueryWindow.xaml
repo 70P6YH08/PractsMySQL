@@ -8,6 +8,7 @@
         Title="QueryWindow" Height="450" Width="800">
     <ScrollViewer ScrollViewer.VerticalScrollBarVisibility="Hidden">
         <StackPanel Width="700">
+            
         <Label Content="Таблица" FontWeight="Bold"/>
         <TextBox x:Name="TableTextBox"/>
         <Button Content="Показать таблицу" Click="Table_Button_Click"/>

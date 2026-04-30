@@ -1,16 +1,16 @@
 {
   "version": 2,
-  "dgSpecHash": "POI24nTAmGQ=",
+  "dgSpecHash": "f44LNqSCRco=",
   "success": true,
-  "projectFilePath": "C:\\Users\\gorbu\\Desktop\\All\\collage\\3 year 2 semestr\\PractsMySQL\\PractWorks\\pr18\\pr18\\pr18\\pr18.csproj",
+  "projectFilePath": "C:\\Users\\-221\\Students\\ispp31\\MySQL\\PractWorks\\pr18\\pr18\\pr18\\pr18.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\gorbu\\.nuget\\packages\\bouncycastle.cryptography\\2.6.2\\bouncycastle.cryptography.2.6.2.nupkg.sha512",
-    "C:\\Users\\gorbu\\.nuget\\packages\\google.protobuf\\3.32.0\\google.protobuf.3.32.0.nupkg.sha512",
-    "C:\\Users\\gorbu\\.nuget\\packages\\k4os.compression.lz4\\1.3.8\\k4os.compression.lz4.1.3.8.nupkg.sha512",
-    "C:\\Users\\gorbu\\.nuget\\packages\\k4os.compression.lz4.streams\\1.3.8\\k4os.compression.lz4.streams.1.3.8.nupkg.sha512",
-    "C:\\Users\\gorbu\\.nuget\\packages\\k4os.hash.xxhash\\1.0.8\\k4os.hash.xxhash.1.0.8.nupkg.sha512",
-    "C:\\Users\\gorbu\\.nuget\\packages\\mysql.data\\9.7.0\\mysql.data.9.7.0.nupkg.sha512",
-    "C:\\Users\\gorbu\\.nuget\\packages\\zstdsharp.port\\0.8.6\\zstdsharp.port.0.8.6.nupkg.sha512"
+    "C:\\NugetCache\\Packages\\bouncycastle.cryptography\\2.6.2\\bouncycastle.cryptography.2.6.2.nupkg.sha512",
+    "C:\\NugetCache\\Packages\\google.protobuf\\3.32.0\\google.protobuf.3.32.0.nupkg.sha512",
+    "C:\\NugetCache\\Packages\\k4os.compression.lz4\\1.3.8\\k4os.compression.lz4.1.3.8.nupkg.sha512",
+    "C:\\NugetCache\\Packages\\k4os.compression.lz4.streams\\1.3.8\\k4os.compression.lz4.streams.1.3.8.nupkg.sha512",
+    "C:\\NugetCache\\Packages\\k4os.hash.xxhash\\1.0.8\\k4os.hash.xxhash.1.0.8.nupkg.sha512",
+    "C:\\NugetCache\\Packages\\mysql.data\\9.7.0\\mysql.data.9.7.0.nupkg.sha512",
+    "C:\\NugetCache\\Packages\\zstdsharp.port\\0.8.6\\zstdsharp.port.0.8.6.nupkg.sha512"
   ],
   "logs": []
 }
