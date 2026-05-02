@@ -66,11 +66,16 @@ $upd_id = isset($_GET['upd_id']) ? (int)$_GET['upd_id'] : 0;
 
 if($upd_id > 0){
     if($_GET['upd'] == "yes"){
-        if($res=$conn->query("UPDATE games SET name = '$name', description = '$description', category = '$category', price = $price WHERE idGame = $upd_id")){
-            echo "Изменение игры $name успешно";
+        if(mb_strlen($name) > 0 && mb_strlen($category) > 0 && $price >= 0.0){
+            if($res=$conn->query("UPDATE games SET name = '$name', description = '$description', category = '$category', price = $price WHERE idGame = $upd_id")){
+                echo "Изменение игры $name успешно";
+            }
+            else{
+                echo "Ошибка:" . $conn->error;
+            }
         }
         else{
-            echo "Ошибка:" . $conn->error;
+            echo "Название и категория не могут быть пустыми. Цена не может быть меньше нуля";
         }
     }
     else{

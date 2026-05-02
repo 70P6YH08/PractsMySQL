@@ -23,7 +23,7 @@
 <?php if (isset($_GET['ins']) && $_GET['ins'] == 'yes') : ?>
     <h2>Добавление записи</h2>
     <form action='saveTable.php' method="GET">
-        <table
+        <table>
         <tr>
         <th>name</th>
         <th>description</th>

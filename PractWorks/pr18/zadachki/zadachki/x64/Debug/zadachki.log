@@ -1,0 +1,4 @@
+﻿  mylib.cpp
+  zadachki.cpp
+  Создание кода...
+C:\Users\-221\Students\ispp31\MySQL\PractWorks\pr18\zadachki\zadachki\zadachki.cpp(2,10): error C1083: Не удается открыть файл включение: mylib.h: No such file or directory,
