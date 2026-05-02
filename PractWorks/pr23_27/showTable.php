@@ -61,6 +61,18 @@ if (isset($_GET['del']))
     $select_id = $_GET['del'];
 }
 
+$select_id_upd = 0;
+
+if (isset($_GET['upd'])){
+    $select_id_upd = $_GET['upd'];
+}
+
+echo    "<form action='editTable.php'>
+            <button name='ins' type='submit' value='yes'>
+                Добавить
+            </button>
+        </form>";
+
 if($res = $conn->query("SELECT * FROM `games` $where ORDER BY $sortBy")){
     echo
     '<table
@@ -70,6 +82,7 @@ if($res = $conn->query("SELECT * FROM `games` $where ORDER BY $sortBy")){
     <th>description</th>
     <th>category</th>
     <th><a href="showTable.php?sortBy=price">price</a></th>
+    <th>Редактирование</th>
     <th>Удаление</th>
     </tr>';
     foreach($res as $row){
@@ -79,6 +92,13 @@ if($res = $conn->query("SELECT * FROM `games` $where ORDER BY $sortBy")){
         echo "<td><p>" . $row["description"] . "</p></td>";
         echo "<td>" . $row["category"] . "</td>";
         echo "<td>" . $row["price"] . "$" . "</td>";
+        echo "<td>
+            <form action='editTable.php?select_id_upd=$select_id_upd' method='GET'>
+                <button name='upd' type='submit' value='{$row['idGame']}'>
+                    Редактирование
+                </button>
+            </form>
+        </td>";
         echo "<td>
             <form action='editTable.php?select_id=$select_id' method='GET'>
                 <button name='del' type='submit' value='{$row['idGame']}'>
