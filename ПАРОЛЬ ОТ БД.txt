@@ -1,0 +1,3 @@
+3duc4710H_pr4c7_p455VV0rd - пароль от root account
+
+d6_4dm1H_15_JLJLy_r01e - пароль от MySQL user account (login: admin)
